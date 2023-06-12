@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  line-height: 25px;
+}
+
+.nav-link {
+  background-color: grey;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: teal;
+  transition: 0.5s;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.main-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: teal;
+  color: #f1f1f1;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.section-heading {
+  font-size: 28px;
+  color: #f1f1f1; /* Update color to teal */
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #f1f1f1 !important;
+}
+
+.education-item h3,
+.work-item h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.work-item ul {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: disc;
+  line-height: 30px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
